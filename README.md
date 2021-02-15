@@ -1,3 +1,11 @@
+# Disclaimer
+
+This module is published from a fork of the Joyent http-signature repository. The original readme is included below.
+
+This version of the library adds initial support for the `HS2019` alg type. The API is also slightly different, in an attempt to decouple the library from the Node.js `request` object interface (e.g. to make it easier to use other HTTP clients with this module).
+
+This fork will become obsolete once the [required functionality](https://github.com/joyent/node-http-signature/pull/116) is merged upstream.
+
 # node-http-signature
 
 node-http-signature is a node.js library that has client and server components
